@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(222, 222, 228);
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.header > h1 {
+  margin-top: 45px;
+  margin-bottom: 0;
+}
+
+.showButton,
+.saveButton,
+.toggleButton {
+  background-color: rgb(105, 148, 241);
+  color: white;
+  padding: 6px;
+  border-radius: 7px;
+  /* border: none; */
+}
+
+.saveButton {
+    margin-top: 10px;
+ float: right;
+}
+
+.form {
+  background-color: rgb(247, 247, 247);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+}
+
+input,
+.inputs {
+  width: 100%;
+}
+
+.labels {
+  width: 200px;
+}
+
+.message {
+  background-color: rgb(247, 247, 247);
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.message h3 {
+  font-weight: normal;
+}
+
+.line {
+  text-decoration: line-through;
+}
